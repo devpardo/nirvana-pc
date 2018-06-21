@@ -1,0 +1,131 @@
+// color
+$color-white: #ffffff;
+$color-white2: #F6F7FB;
+$color-white3: #F0F0F0;
+$color-black: #000000;
+$color-black1: #272A2C;
+$color-black2: #222527;
+$color-gray: #4A4A4A;
+$color-gray1: #2E2E2E;
+$color-gray2: #1E2121;
+$color-gray3: #9B9B9B;
+$color-gray4: #F0F0F0;
+$color-gray5: #999999;
+$color-gray6: #DDDDDD;
+$color-gray7: #D7D7D7;
+$color-gray8: #EEEEEE;
+$color-gray9: #F9F9F9;
+$color-gray10: #666666;
+$color-gray11: #E0DFDF;
+$color-gray12: #333333;
+$color-gray13: #F3F3F3;
+$color-gray14: #FAFAFA;
+$color-gray15: #EBEBEB;
+$color-gray16: #BCBBBB;
+$color-gray17: #8C8B8B;
+$color-gray18: #CBCBCB;
+$color-red: #CF1031;
+$color-red1: #DD0024;
+$color-red2: #EE0012;
+$color-red3: #FF4B69;
+$color-red4: #AD1000;
+$color-red5: #E51F25;
+$color-red6: #B10C27;
+$color-red7: #F27983;
+$color-red8: #AC1A25;
+$color-red9: #D9534F;
+$color-red10: #8C2E2C;
+$color-red11: #5F1F1D;
+$color-red12: #F36671;
+$color-red13: #98423E;
+$color-yellow: #F7C202;
+$color-yellow1: #DF9418;
+$color-yellow2: #FBE200;
+$color-yellow3: #F8E71C;
+$color-yellow4: #F96701;
+$color-yellow5: #FF7300;
+$color-yellow6: #FFE56D;
+$color-yellow7: #FFF0A6;
+$color-yellow8: #E88905;
+$color-yellow9: #D2754D;
+$color-yellow10: #EFDC9C;
+$color-yellow11: #FBBD00;
+$color-yellow12: #DF701F;
+$color-yellow13: #fcd667;
+$color-blue: #417DC4;
+$color-blue1: #0B7DB1;
+$color-blue2: #4A90E2;
+$color-blue3: #6092DF;
+$color-blue4: #1080EC;
+$color-blue5: #0074F2;
+$color-blue6: #0e2454;
+$color-blue7: #01133b;
+$color-blue8: #122151;
+$color-blue9: #0b0e31;
+$color-blue10: #b0c4de;
+$color-purple: #680414;
+$color-purple1: #670011;
+$color-green: #0DA70C;
+$color-green1: #3F880C;
+$color-green2: #8FD68E;
+$color-green3: #119010;
+// font size
+$font-largest: 60px;
+$font-large1: 48px;
+$font-large: 36px;
+$font: 32px;
+$font-h: 24px;
+$font-h1: 20px;
+$font-h2: 18px;
+$font-h3: 16px;
+$font-h3-1: 15px;
+$font-h4: 14px;
+$font-h5-1: 13px;
+$font-h5: 12px;
+// width
+$min-width: 1280px;
+$space-padding: 20px;
+// 1px
+$px: 1px;
+// sass block
+@mixin border-radius($px: 5px) {
+  border-radius: $px;
+}
+@mixin line-height($height: 20px) {
+  height: $height;
+  line-height: $height;
+}
+@mixin overflow-line($line: 1) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $line;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@mixin spacing ($space) {
+  word-spacing: $space;
+  letter-spacing: $space;
+}
+.overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.break-word {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+$border-radius: 5px;
+$border-radius-circle: 50px;
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
